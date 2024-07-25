@@ -43,11 +43,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/enzovanzuita.jpeg"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "Hi, I'm Enzo Vanzuita Piazera, a 2024 graduate in Materials Science and Engineering from the Federal University of Santa Catarina. Throughout my academic and professional journey, I developed a strong passion for computing and data. This newfound interest has led me to pursue opportunities in data engineering and data science. I am eager to leverage my skills and knowledge to solve complex problems and make contributions in these dynamic fields.",
+  resume: require("../editable-stuff/resume.pdf"),
 };
 
 // PROJECTS SECTION
@@ -56,9 +56,9 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: true,
+  show: false,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
+  gitHubUsername: "EnzoVanz", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
 };
@@ -92,24 +92,23 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Python", value: 30 },
+    { name: "SQL", value: 30 },
+    { name: "Data Structures", value: 10 },
+    { name: "BI Tools", value: 10 },
+    { name: "Machine Learning", value: 10 },
+    { name: "Git", value: 10 },
+    { name: "Docker", value: 10 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
     { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
+    { name: "Positivity", value: 80 },
+    { name: "Adaptability", value: 95 },
+    { name: "Problem Solving", value: 85 },
     { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Organization", value: 85 },
+    { name: "Creativity", value: 75 },
   ],
 };
 
@@ -118,8 +117,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "If you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "enzovanzuita@gmail.com",
 };
 
 const experiences = {
