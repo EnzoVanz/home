@@ -21,7 +21,7 @@ const mainBody = {
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/enzo-vanzuita-b822981b5/",
+      url: "https://www.linkedin.com/in/enzo-vanzuita/",
     },
   ],
 };
