@@ -7,8 +7,8 @@ const navBar = {
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
   firstName: "Enzo",
-  middleName: "Vanzuita",
-  lastName: "Piazera",
+  middleName: "",
+  lastName: "Vanzuita",
   message: " Materials Engineer | Researcher | Bussiness Intelligence Analyst",
   icons: [
     {
@@ -46,7 +46,7 @@ const about = {
   imageLink: require("../editable-stuff/enzovanzuita.jpeg"),
   imageSize: 375,
   message:
-    "Hi, I'm Enzo Vanzuita Piazera, a 2024 graduate in Materials Science and Engineering from the Federal University of Santa Catarina. Throughout my academic and professional journey, I developed a strong passion for computing and data. This newfound interest has led me to pursue opportunities in data engineering and data science. I am eager to leverage my skills and knowledge to solve complex problems and make contributions in these dynamic fields.",
+    "Hi, I'm Enzo Vanzuita Piazera, a 2024 graduate in Materials Science and Engineering from the Federal University of Santa Catarina. Throughout my academic and professional journey, I developed a strong passion for computing and data. This newfound interest has led me to pursue opportunities in data engineering and data science. I am eager to leverage my skills and knowledge to solve complex problems and make new contributions.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -122,18 +122,28 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Researcher',// Here Add Company Name
+      companylogo: require('../assets/img/labmat.png'),
+      date: 'Jan 2019 – Mar 2021 / jan 2022 - oct 2023',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Product Development Intern',
+      companylogo: require('../assets/img/schulz.png'),
+      date: 'May 2021 – Dec 2021',
+    },
+    {
+      role: 'Researcher',
+      companylogo: require('../assets/img/MRM.png'),
+      date: 'Oct 2023 – Apr 2024',
+    },
+    {
+      role: 'Bussiness Intelligence Consultant',
+      companylogo: require('../assets/img/GGI.jpg'),
+      date: 'May 2024 – Aug 2024',
     },
   ]
 }
